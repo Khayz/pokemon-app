@@ -1,0 +1,39 @@
+.Pokemon {
+	border-radius: 15px;
+	/* border: 5px solid red; */
+	color: #fff;
+	background-clip: padding-box; /* !importanté */
+	border: solid 5px transparent; /* !importanté */
+	border-radius: 1em;
+	background-color: #202020;
+	width: 350px;
+	height: 400px;
+	margin: 20px;
+	-webkit-box-shadow: 10px 10px 20px -4px rgba(0, 0, 0, 1);
+	-moz-box-shadow: 10px 10px 20px -4px rgba(0, 0, 0, 1);
+	box-shadow: 10px 10px 20px -4px rgba(0, 0, 0, 1);
+	transition: 0.3s ease-in;
+	cursor: pointer;
+}
+
+.Pokemon:hover {
+	border: 5px solid white;
+}
+
+.Pokemon h1 {
+	color: #fff;
+	text-transform: capitalize;
+	margin: 0;
+}
+
+.PokemonInfo {
+	display: flex;
+	justify-content: space-around;
+}
+
+.PokemonInfo p {
+	text-transform: capitalize;
+	margin: 6px 0;
+	text-align: center;
+	color: #fff;
+}

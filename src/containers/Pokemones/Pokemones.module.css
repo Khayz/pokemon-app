@@ -1,0 +1,27 @@
+.PokemonesContainer {
+	width: 90%;
+	margin: auto;
+}
+
+.PokemonesContainer .changePokemones {
+	padding: 15px;
+	border-radius: 8px;
+	border: 1px solid #202020;
+	background-color: #202020;
+	color: #fff;
+	font-size: 16px;
+	outline: none;
+	cursor: pointer;
+	transition: 0.3s ease-out;
+}
+
+.changePokemones:hover {
+	background-color: #fff;
+	color: #202020;
+}
+
+.Pokemones {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}

@@ -1,0 +1,4 @@
+.PokemonImages img {
+	width: 130px;
+	object-fit: cover;
+}

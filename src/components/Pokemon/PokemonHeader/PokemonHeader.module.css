@@ -1,0 +1,20 @@
+.PokemonHeader {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.PokemonHeader button {
+	background-color: #ffeb00;
+	color: #000;
+	padding: 7px;
+	cursor: pointer;
+	border-radius: 7px;
+	border: none;
+	transition: 0.3s ease-out;
+	outline: none;
+}
+
+.PokemonHeader button:hover {
+	background-color: #1f6ae7;
+}

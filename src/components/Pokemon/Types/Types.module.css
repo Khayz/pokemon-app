@@ -1,0 +1,11 @@
+.types h3 {
+	margin: 0;
+	text-align: center;
+	color: #fff;
+}
+
+.types p {
+	border: 2px solid #fff;
+	border-radius: 5px;
+	padding: 5px;
+}
